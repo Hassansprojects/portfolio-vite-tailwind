@@ -1,3 +1,4 @@
+import al from 'src\images\al.webp';
 import React, { useEffect, useLayoutEffect, useRef, useState } from "react";
 import { motion, useMotionValue, useTransform, AnimatePresence } from "framer-motion";
 import {
@@ -55,7 +56,7 @@ const DATA = {
     "I design delightful, performance‑obsessed experiences and ship ambitious projects end‑to‑end. I love crisp UI, clean APIs, and solving real problems with craft.",
   email: "hassan.houjazy@gmail.com",
   phone: "+1 (617) 208‑9892",
-  resumeUrl: "https://drive.google.com/file/d/1gl5yovGMXfA_XORb2gB1u5f53cwGinrz/view?usp=sharing", // swap with your resume link
+  resumeUrl: "https://drive.google.com/file/d/1_fJyOMuqQVkqFzuo1lNOrxbxS8zA7lmg/view?usp=sharing", // swap with your resume link
   socials: {
     github: "https://github.com/Hassansprojects",
     linkedin: "https://www.linkedin.com/in/hassan-houjazy/",
@@ -68,9 +69,7 @@ const DATA = {
         "A premium booking site with a star‑field hero, smooth page transitions, and instant quote widget.",
       tags: ["Three.js", "Next.js", "Tailwind", "Stripe"],
       link: "#",
-      image:
-        "data:image/svg+xml;utf8,\
-        <svg xmlns='http://www.w3.org/2000/svg' width='1200' height='630'><defs><linearGradient id='g' x1='0' x2='1'><stop offset='0' stop-color='%2318252e'/><stop offset='1' stop-color='%230c1115'/></linearGradient></defs><rect width='100%' height='100%' fill='url(%23g)'/><g fill='%23a3e635' font-family='monospace' font-size='56'><text x='50' y='120'>Mona Livery</text><text x='50' y='200'>Interactive 3D Landing</text></g></svg>",
+      image: al,
     },
     {
       title: "System Administration Automation Toolkit",
@@ -83,9 +82,9 @@ const DATA = {
         <svg xmlns='http://www.w3.org/2000/svg' width='1200' height='630'><rect width='100%' height='100%' fill='%23101512'/><g fill='%23a3e635' font-family='monospace' font-size='52'><text x='50' y='120'>SysAdmin</text><text x='50' y='190'>Automation Toolkit</text></g></svg>",
     },
     {
-      title: "Java Autocomplete Search Engine",
+      title: "IT Automation Toolkit",
       blurb:
-        "Prefix autocomplete using trie indexing and ranking; command‑line + web demo.",
+        "Built a PowerShell toolkit for backup, provisioning, permissions, and audits.",
       tags: ["Java", "Algorithms", "Trie", "REST"],
       link: "#",
       image:
@@ -93,9 +92,9 @@ const DATA = {
         <svg xmlns='http://www.w3.org/2000/svg' width='1200' height='630'><rect width='100%' height='100%' fill='%23120b1a'/><g fill='%23f59e0b' font-family='monospace' font-size='52'><text x='50' y='120'>Java</text><text x='50' y='190'>Autocomplete Engine</text></g></svg>",
     },
     {
-      title: "Full‑Stack CRUD App — React · Flask/Django · SQL",
+      title: "CloudTrail Explorer- Cloud Monitoring & Visualization Tool",
       blurb:
-        "Small CRUD app with auth/roles, form validation, and basic security (hashing, CSRF, input sanitization).",
+        "Consolidated and oversaw logs from various AWS accounts using AWS CloudWatch, improving cloud activity tracking efficiency and halving tracking time",
       tags: ["React", "Flask", "Django", "SQL", "Security"],
       link: "#",
       image:
@@ -108,7 +107,7 @@ const DATA = {
     {
       role: "POS & E-Commerce Integration Specialist (Contract)",
       org: "Arax",
-      period: "2024 – Present",
+      period: "Jan'25 – March '25",
       points: [
         "Streamlined transactions by implementing an innovative point-of-sales system.",
         "Launched an integrated e-commerce platform with a robust online payment API",
@@ -116,13 +115,13 @@ const DATA = {
       ],
     },
     {
-      role: "CloudTrail Explorer-Developer",
-      org: "Umass Boston",
-      period: "Jan '24 – Mar '24",
+      role: "Contracted Website Build",
+      org: "Mona's Airport Livery",
+      period: "Jun'25 – Jul'25",
       points: [
-        "Consolidated and oversaw logs from various AWS accounts using AWS CloudWatch, improving cloud activity tracking efficiency and halving tracking time",
-        "Administered real-time monitoring and advanced search functionalities in AWS operations, leveraging CloudTrail to reduce incident response times",
-        "Designed and implemented a user-friendly dashboard showcasing graphical trends, and improved data visualization",
+        "Designed a fast, mobile-first site with clear “Book Now”, accessible UI, and SEO best practices to drive bookings",
+        "Implemented secure, scalable hosting with HTTPS, automated backups, and uptime/performance monitoring",
+        "Built a streamlined booking request flow (pickup/dropoff & flight details) with automated email notifications",
       ],
     },
   ],
@@ -146,14 +145,14 @@ const DATA = {
     {
       quote:
         "Hassan moves fast without breaking quality. His attention to detail made our product feel handcrafted.",
-      name: "A. Teammate",
-      title: "PM @ Startup",
+      name: "Alex",
+      title: "Owner",
     },
     {
       quote:
         "From UX to automation, he connected everything end‑to‑end. Huge impact.",
-      name: "B. Collaborator",
-      title: "Engineer @ HealthTech",
+      name: "Hamad",
+      title: "Co-worker",
     },
   ],
   stats: [
