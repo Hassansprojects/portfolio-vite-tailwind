@@ -1,4 +1,4 @@
-import al from 'src\images\al.webp';
+import al from './images/al.webp';
 import React, { useEffect, useLayoutEffect, useRef, useState } from "react";
 import { motion, useMotionValue, useTransform, AnimatePresence } from "framer-motion";
 import {
