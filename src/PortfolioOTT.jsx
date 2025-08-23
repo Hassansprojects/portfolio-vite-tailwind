@@ -1,4 +1,7 @@
 import al from './images/al.webp';
+import Azure from './images/Azure.webp';
+import Network from './images/Network.webp';
+import Sysadmin from './images/Sysadmin.webp';
 import React, { useEffect, useLayoutEffect, useRef, useState } from "react";
 import { motion, useMotionValue, useTransform, AnimatePresence } from "framer-motion";
 import {
@@ -56,7 +59,7 @@ const DATA = {
     "I design delightful, performance‑obsessed experiences and ship ambitious projects end‑to‑end. I love crisp UI, clean APIs, and solving real problems with craft.",
   email: "hassan.houjazy@gmail.com",
   phone: "+1 (617) 208‑9892",
-  resumeUrl: "https://drive.google.com/file/d/1_fJyOMuqQVkqFzuo1lNOrxbxS8zA7lmg/view?usp=sharing", // swap with your resume link
+  resumeUrl: "https://drive.google.com/file/d/1dCbsJalJ03TzAIZaDdEO1GsSpQ-iJtfH/view?usp=sharing", // swap with your resume link
   socials: {
     github: "https://github.com/Hassansprojects",
     linkedin: "https://www.linkedin.com/in/hassan-houjazy/",
@@ -72,24 +75,20 @@ const DATA = {
       image: al,
     },
     {
-      title: "System Administration Automation Toolkit",
+      title: "Azure AD Automation Suite (Enterprise Edition)",
       blurb:
-        "Automates user provisioning, backups, patching, and compliance audits across Windows & Linux.",
+        "Toolkit/accelerator for Azure AD identity automation. Automate new-hire provisioning, offboarding, group/role assignment, license management, and Teams approvals/notifications",
       tags: ["Bash", "Python", "Ansible", "Windows", "Linux"],
-      link: "#",
-      image:
-        "data:image/svg+xml;utf8,\
-        <svg xmlns='http://www.w3.org/2000/svg' width='1200' height='630'><rect width='100%' height='100%' fill='%23101512'/><g fill='%23a3e635' font-family='monospace' font-size='52'><text x='50' y='120'>SysAdmin</text><text x='50' y='190'>Automation Toolkit</text></g></svg>",
+      link: "https://github.com/Hassansprojects/azure-ad-automation-suite",
+      image: Azure,
     },
     {
-      title: "IT Automation Toolkit",
+      title: "System Administration Automation Toolkit",
       blurb:
         "Built a PowerShell toolkit for backup, provisioning, permissions, and audits.",
-      tags: ["Java", "Algorithms", "Trie", "REST"],
-      link: "#",
-      image:
-        "data:image/svg+xml;utf8,\
-        <svg xmlns='http://www.w3.org/2000/svg' width='1200' height='630'><rect width='100%' height='100%' fill='%23120b1a'/><g fill='%23f59e0b' font-family='monospace' font-size='52'><text x='50' y='120'>Java</text><text x='50' y='190'>Autocomplete Engine</text></g></svg>",
+      tags: ["Bash", "Python", "Ansible", "Windows", "Linux"],
+      link: "https://github.com/Hassansprojects/System_Administration_Automation_Toolkit",
+      image: Sysadmin,
     },
     {
       title: "CloudTrail Explorer- Cloud Monitoring & Visualization Tool",
@@ -100,6 +99,14 @@ const DATA = {
       image:
         "data:image/svg+xml;utf8,\
         <svg xmlns='http://www.w3.org/2000/svg' width='1200' height='630'><rect width='100%' height='100%' fill='%230b1a12'/><g fill='%2360a5fa' font-family='monospace' font-size='48'><text x='50' y='120'>Full‑Stack CRUD</text><text x='50' y='190'>React · Flask/Django · SQL</text></g></svg>",
+    },
+    {
+      title: "Network Security Dashboard – Ultimate",
+      blurb:
+        "Live ingest: Suricata/PCAP, uploads, optional demo feed. Visuals & KPIs: real-time charts, KPI cards, exports, dark UI Easy start: Python app/start.bat; keeps ~5,000 latest rows.",
+      tags: ["React", "Flask", "Django", "SQL", "Security"],
+      link: "https://github.com/Hassansprojects/network-security-dashboard-ultimate",
+      image: Network,
     },
   ],
   // ✅ FIXED: Experience contained a duplicate/stray block. Consolidated to Arax only.
